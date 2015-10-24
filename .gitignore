@@ -1,8 +1,15 @@
 GPATH
 GRTAGS
 GTAGS
+CMakeCache
+CMakeFiles
+cmake_install.cmake
+Makefile
 *.txt
 *.[oa]
-/src/hello
+/src/
+/bin/
+compiler
 !*.cpp
 !*.h
+!CMakeLists.txt

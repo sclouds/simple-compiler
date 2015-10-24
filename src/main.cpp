@@ -45,6 +45,9 @@ int main()
   FILE *fwrite = fopen("result.txt", "w+");
   char c;
   int flag;
+  printf("This is a simple compiler");
+  int a;
+  scanf("%d", &a);
   if (!fread) {
     printf("can't open file\n");
     return -1;
